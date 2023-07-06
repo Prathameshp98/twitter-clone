@@ -1,0 +1,38 @@
+
+.searchbox-main {
+    width: 100%;
+    height: 40px;
+}
+
+.searchbox-main .searchbox-inner {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbox-main .searchbox-inner svg {
+    width: 23px;
+    fill: #fff;
+    cursor: pointer;
+}
+
+.searchbox-main .searchbox-inner .search {
+    width: 375px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #2d2d2d;
+    display: flex;
+}
+
+.searchbox-main .searchbox-inner .search svg {
+    padding: 12px 15px;
+    width: 20px;
+    fill: grey;
+}
+
+.searchbox-main .searchbox-inner .search p {
+    margin: 11px 5px;
+    font-size: 15px;
+}

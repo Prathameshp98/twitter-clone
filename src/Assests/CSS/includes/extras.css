@@ -1,0 +1,60 @@
+
+.extras-main {
+    width: 325px;
+    height: fit-content;
+}
+
+.extras-main .extras-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px 20px;
+}
+
+.extras-main .extras-inner .search-filter {
+    height: 50px;
+    width: 100%;
+    border: 0.01em solid #4d4d4d;
+    border-radius: 13px;
+    padding: 0px 15px
+}
+
+.extras-main .extras-inner .search-filter p {
+    margin: 10px 0px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.extras-main .extras-inner .filter {
+    height: fit-content;
+    width: 100%;
+    border: 0.01em solid #4d4d4d;
+    border-radius: 13px;
+    padding: 0px 15px;
+}
+
+.extras-main .extras-inner .people {
+    margin-bottom: 20px;
+}
+
+.extras-main .extras-inner .location {
+    margin-bottom: 30px;
+}
+
+.extras-main .extras-inner .filter h6 {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.extras-main .extras-inner .filter p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.extras-main .extras-inner .filter .advanced {
+    margin: 0px 0 20px;
+    font-size: 14px;
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}

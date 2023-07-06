@@ -1,0 +1,92 @@
+
+.post-main {
+    width: fit-content;
+    height: 80vh;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.post-main::-webkit-scrollbar {
+    display: none;
+}
+
+.post-main .post-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post-main .post-inner .post {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-bottom: 0.01em solid #4d4d4d;
+    padding: 0px 20px;
+}
+
+.post-main .post-inner .post .link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.post-main .post-inner .post img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.post-main .post-inner .post .post-body .username {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-main .post-inner .post .post-body .username h3 {
+    margin: 0;
+    font-size: 15px;
+}
+
+.post-main .post-inner .post .post-body .username svg {
+   width: 20px;
+   fill: grey; 
+}
+
+.post-main .post-inner .post .post-body .text {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.post-main .post-inner .post .post-body .hashtag {
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+}
+
+.post-main .post-inner .post .post-body .image {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+}
+
+.post-main .post-inner .post .post-body .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 0 0 20px;
+}
+
+.post-main .post-inner .post .post-body .buttons .each-button {
+    display: flex;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.post-main .post-inner .post .post-body .buttons svg {
+    width: 18px;
+    fill: grey;
+}
+
+.post-main .post-inner .post .post-body .buttons p {
+    font-size: 13px;
+    margin: 5px 0;
+    color: grey;
+}

@@ -1,0 +1,35 @@
+
+.sidebar-main {
+    width: 200px;
+    height: fit-content;
+    padding: 0;
+}
+
+.sidebar-main .sidebar-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: end;
+    padding: 10px 0;
+}
+
+.sidebar-main .sidebar-inner svg {
+    width: 35px;
+    fill: #fff;
+}
+
+.sidebar-main .sidebar-inner .option {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.sidebar-main .sidebar-inner .option svg {
+    width: 30px;
+}
+
+.sidebar-main .sidebar-inner .option p {
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+}

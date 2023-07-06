@@ -1,0 +1,15 @@
+
+.timeline-main {
+    width: 500px;
+    height: 100%;
+    border-left: 0.01em solid #4d4d4d;
+    border-right: 0.01em solid #4d4d4d;
+}
+
+.timeline-main .timeline-inner {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 10px 0px;
+}
