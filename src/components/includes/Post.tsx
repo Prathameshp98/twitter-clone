@@ -19,6 +19,12 @@ const Post: React.FC<Props> = ({ inputs }: Props) => {
 
     useEffect(() => {
 
+        const storedData = localStorage.getItem('likes')
+        if(storedData){
+            const parsedData = JSON.parse(storedData)
+            setLikes(parsedData)
+        }
+        
         fetchData().then(data => setTweet(data))
 
     }, [])
