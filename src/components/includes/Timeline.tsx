@@ -6,13 +6,18 @@ import SearchBox from './SearchBar'
 import TopNav from './TopNav'
 import Post from './Post'
 
-const Timeline: React.FC = () => {
+interface Props {
+    inputs: any
+}
+
+const Timeline: React.FC<Props> = ({ inputs }: Props) => {
+
   return (
     <div className='timeline-main'>
         <div className='timeline-inner'>
             <SearchBox />
             <TopNav />
-            <Post />
+            <Post inputs={inputs} />
         </div>
     </div>
   )

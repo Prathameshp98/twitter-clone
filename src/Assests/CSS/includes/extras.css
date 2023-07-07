@@ -34,6 +34,18 @@
     padding: 0px 15px;
 }
 
+.extras-main .extras-inner .filter div div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extras-main .extras-inner .filter div div img {
+    height: 20px;
+    width: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
 .extras-main .extras-inner .people {
     margin-bottom: 20px;
 }
