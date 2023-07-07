@@ -13,7 +13,7 @@ const Post: React.FC<Props> = ({ inputs }: Props) => {
     const[likes, setLikes]  = useState<any[]>([])
 
     const fetchData = () => {
-        return fetch('http://www.mocky.io/v2/5d1ef97d310000552febe99d')
+        return fetch('https://www.mocky.io/v2/5d1ef97d310000552febe99d')
             .then(response => response.json())
     }
 
